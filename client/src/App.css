@@ -1,0 +1,19 @@
+#app {
+  margin: 20px;
+}
+
+#uploader {
+  margin:10px 0px;
+}
+
+#file-list {
+  display:flex;
+  flex-direction: column;
+}
+
+.list-item {
+  display:grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  max-width:500px;
+  margin:5px;
+}
