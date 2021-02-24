@@ -5,7 +5,8 @@
   "scripts": {
     "server": "node ./bin/www",
     "client": "npm run start --prefix client",
-    "dev": "run-p server client"
+    "dev": "run-p server client",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "axios": "^0.21.1",
